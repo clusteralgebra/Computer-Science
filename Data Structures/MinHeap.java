@@ -1,5 +1,5 @@
 /**
- * Advanced Computer Science Principles: Minimum Heap
+ * Minimum Heap
  * @author Alan Yan
  *
  */

@@ -1,0 +1,60 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{enumitem}
+\usepackage{bm}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\usepackage[letterpaper,margin=1in,bottom=0.7in]{geometry}
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\usepackage{multicol}
+\usepackage{graphicx}
+\DeclareMathOperator{\re}{\text{Re}}
+\DeclareMathOperator{\lcm}{\text{lcm}}
+\newcommand{\QQ}{\mathbb{Q}}
+
+
+\begin{document}
+
+\begin{multicols}{2}
+\begin{enumerate} 
+\item[*] Clarifications: (\textbf{P1}) $b_1$ includes the edges of the triangles. (\textbf{P2}) Interior does not include the boundary (\textbf{P7, P12}) For positive integer $n$, $[n] = \{1, 2, ..., n\}$. For a set $S$,  $\binom{S}{k}$ is the set of subsets of $S$ of size $k$. 
+
+\item Let $P$ be a right hexagonal prism. Haveesh drills a square-shaped tunnel through the interior of the hexagonal bases of $P$. Then, Leo uses a sharpie to triangulate each face of $P$. Let $b_0, b_1, b_2$ be the number of vertices, edges, and triangles (respectively) of $P$. Compute $b_0 - b_1 + b_2$.
+
+\item How many lattice points are there in the interior of the parallelogram with vertices $(0, 0)$, $(8, 2)$, $(2, 6)$ and $(10, 8)$?
+
+\item In how many ways can seven people be seated in a circle if two arrangements are considered the same whenever each person has the same neighbors (not necessarily on the same side)? 
+
+\item What is the least integer $n$ such that any $n$ pairwise relatively prime integers greater than $1$ and less than $2019$ contains at least one prime number?
+
+\item Let $f = 1/x$ and $g = (x-1)/x$. Let $G$ be the set of functions which can be written as a finite composition of the functions $f$ and $g$. For example, $f \circ f \circ f \in G$ and $f \circ g \circ f \in G$. Find the number of elements in $G$. 
+
+\item Compute the infinite product
+\[
+    \prod_{n = 0}^{\infty} \frac{2017^{2^n}}{2017^{2^n} + 1}.
+\]
+
+\item There is a proper $k$-coloring of a graph $G(V, E)$ if there is a map $\phi : V \to [k]$ such that whenever $ij \in E$, $\phi(i) \neq \phi(j)$. Let $\chi(G)$ be the smallest positive integer $k$ such that there is a proper $k$-coloring of $G$. Let $K(V, E)$ be the graph where $V = \binom{[2019]}{10}$ and $E = \{\{A, B\} : A, B \in V \text{ and } A \cap B = \emptyset \}.$ Compute $\chi(K)$. 
+
+\item Compute the following sum
+\[
+    \sum_{k = 1}^{71} \left \lfloor \frac{k^2+k}{71} \right \rfloor.
+\]
+
+\item Let $p_n$ denote the $n$th prime number. Compute
+\[
+    \lim_{n \to \infty} \frac{p_n}{\sqrt[n]{p_1p_2...p_n}}.
+\]
+
+\item Let $K$ be a field with $|K| = 2017^{2017}$. A polynomial $f \in K[x]$ is \textit{thicc} if every irreducible factor of $f$ has multiplicity at least $2$. Let $P$ be the number of monic thicc polynomials of degree $301$. Compute the maximum integer $k$ such that $2017^{k} | P$.  
+
+\item Let $\Omega$ be the circumcircle of a 13-14-15 triangle $XYZ$ and $\omega$ be the incircle of the triangle. For every $A \in \Omega$, there is a triangle $ABC$ having $\Omega$ for circumcircle and $\omega$ for incircle. Let $\mathcal{L}$ be the locus of the centroid of $\triangle ABC$ as $A$ traverses $\Omega$. Compute the area that $\mathcal{L}$ encloses. 
+
+\item Let $S = [10]$. Let $G$ be the union of all closed line segments joining any two elements of $S \times S$ along a vertical or horizontal line, or along a line with slope $\pm 1$. Determine the combined total of the number of (non-degenerate) triangles and rectangles for which all edges are subsets of $G$. 
+
+\item[] \centering \includegraphics[scale = 1]{asdf.PNG} \\ Problem 1 Diagram
+\end{enumerate}
+\end{multicols}
+
+\end{document}
